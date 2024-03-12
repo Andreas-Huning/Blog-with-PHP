@@ -1,0 +1,159 @@
+/**********************************/
+/********** BASIC STYLES **********/
+/**********************************/
+
+body {
+	font-family: verdana;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 0% 3%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 2em;
+}
+
+h1 { 
+	color: black;  
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+}
+
+h2, h3, h4, h5  {
+	color: dodgerblue;
+	letter-spacing: 0.05em;
+}
+
+h3, h4, h5 {
+	letter-spacing: 0.01em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4, h5 {
+	font-size: 1em;
+	color: gray;
+}
+h4 {
+	font-weight: bold;
+}
+
+p.small { 
+	font-size: 0.7em; color: gray;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background-color: gray;
+}
+
+
+/******************************************/
+/********** HTML ELEMENTS STYLES **********/
+/******************************************/
+
+/********** COMMON FORMULAR STYLES **********/
+fieldset, input, textarea, select {
+	border-radius: 5px;
+}
+fieldset {
+	margin-bottom: 10px;
+}
+fieldset fieldset {
+	width: 78%;
+	border: 1px solid gray;
+}
+select.day {
+	width: 75px;
+}
+select.month {
+	width: 100px;
+}
+select.year {
+	width: 75px;
+}
+input, textarea {
+	margin: 5px 0;
+	padding: 5px;
+	width: 80%;
+}
+textarea {
+	height: 100px;
+	font-family: verdana;
+}
+input[type="submit"] {
+	width: 100%;
+}
+input.short {
+	width: 125px;
+}
+input::placeholder {
+   opacity: 0.9;
+	font-size: 0.9em;
+}
+
+
+
+
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+/********** SPECIAL FORMULARS STYLES **********/
+header {
+	text-align: right;
+}
+form.login {
+	width: 435px;
+}
+
+
+/********** FLOATING **********/
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.clearer {
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+
+
+/********** AVATAR IMAGE **********/
+img.avatar {
+	width: 150px;
+	height: 150px;
+	margin: 15px 15px 15px 0;
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+
+/********** USER MESSAGES STYLES **********/
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+.info {
+	color: darkorange;
+}
+.marker {
+	color: darkred;
+	font-size: 1.1em;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+
